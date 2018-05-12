@@ -1,5 +1,7 @@
 .DS_Store
 .sh
 .idea
-laratest-app/.env
-laradock
+.env
+/laradock
+/vendor
+/node_modules
