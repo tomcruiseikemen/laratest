@@ -8,7 +8,10 @@ class PagesController extends Controller
 {
     public function about()
     {
-        return view('pages.about');
+        $first_name = 'Tom';
+        $last_name = 'Cruise';
+
+        return view('pages.about', compact('first_name', 'last_name'));
     }
 
     public function contact()
